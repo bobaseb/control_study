@@ -4,6 +4,7 @@ function result=visang(viewdist,degrees,stimsize)
 %   degrees = visang(viewdist, [], stimsize)
 %   viewdist of 57.294 gives equal degrees to cm
 % EF
+%author unkown (Steve Fleming? Benedetto De Martino?)
 
 if isempty(degrees)
     rad= atan((stimsize/2) / viewdist) * 2;
