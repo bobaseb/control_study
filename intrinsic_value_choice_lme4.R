@@ -12,8 +12,6 @@ d <- read.csv(trialData)
 
 #d$condition[d$condition==-1]=0
 
-d = d[d$experiment ==5, ] #fifth design
-
 #d = d[d$condition == -1,] #losses
 d = d[d$condition == 1,] #gains
 
